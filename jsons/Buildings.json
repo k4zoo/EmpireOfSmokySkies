@@ -44,7 +44,7 @@
     },    
     {
         "name": "Lord of Refinement",
-        "cost": 1500,
+        "cost": 2000,
         "isNationalWonder": true,
         "requiredBuilding": "Captain of Industry",
         "requiredTech": "Technocracy",
@@ -53,7 +53,7 @@
     {
         "name": "Master of Wealth",
         "culture": 3000,
-        "cost": 1500,
+        "cost": 2000,
         "isNationalWonder": true,
         "requiredBuilding": "Lord of Refinement",
         "requiredTech": "Perpetual Motion",
