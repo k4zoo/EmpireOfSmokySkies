@@ -364,7 +364,7 @@
         "cost": 300,
         "hurryCostModifier": 25,
         "maintenance": 0,
-        "uniques": ["[+1 Production] from [Luboric] tiles"],
+        "uniques": ["[+1 Production] from [Luboric] tiles in this city"],
         "requiredNearbyImprovedResources": ["Luboric"],
         "requiredTech": "Infernal Combustion"
     },
@@ -376,7 +376,7 @@
         "cost": 300,
         "hurryCostModifier": 25,
         "maintenance": 0,
-        "uniques": ["[+1 Production] from [Luboric] tiles"],
+        "uniques": ["[+1 Production] from [Luboric] tiles in this city"],
         "requiredNearbyImprovedResources": ["Luboric"],
         "requiredTech": "Infernal Combustion"
     },
@@ -385,7 +385,7 @@
         "culture": 1,
         "isWonder": true,
         "greatPersonPoints": {"production": 2},
-        "uniques": ["+1 Production from specialists"],
+        "uniques": ["[+1 Production] from every specialist"],
         "requiredTech": "Infernal Combustion",
         "quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!'  - Emma Lazarus"
     },
@@ -442,7 +442,7 @@
         "cost": 360,
         "hurryCostModifier": 25,
         "maintenance": 0,
-        "uniques": ["[+1 Production] from [Aetherium] tiles"],
+        "uniques": ["[+1 Production] from [Aetherium] tiles in this city"],
         "requiredNearbyImprovedResources": ["Aetherium"],
         "requiredTech": "Automata"
     },
@@ -454,7 +454,7 @@
         "cost": 360,
         "hurryCostModifier": 25,
         "maintenance": 0,
-        "uniques": ["[+1 Production] from [Aetherium] tiles"],
+       "uniques": ["[+1 Production] from [Aetherium] tiles in this city"],
         "requiredNearbyImprovedResources": ["Aetherium"],
         "requiredTech": "Automata"
     },    
