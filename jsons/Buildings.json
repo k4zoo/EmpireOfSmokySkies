@@ -15,8 +15,8 @@
         "cannotBeBuiltWith": "Palace",
         "percentStatBonus": {"gold": 50,"science": 33,"production": 10},
         "specialistSlots": {"culture": 1,"gold": 2,"science": 3,"production": 1},
-        "uniques": ["[+1 Food] from [Fish] tiles","[+1 Food] from [Ocean] tiles","[+1 Food] from [Coast] tiles",
-            "[+2 Science] from [Jungle] tiles","[+1 Science] Per [2] Population in this city","[40]% of food is carried over after population increases"]
+        "uniques": ["[+1 Food] from [Fish] tiles in this city","[+1 Food] from [Ocean] tiles in this city","[+1 Food] from [Coast] tiles in this city",
+            "[+2 Science] from [Jungle] tiles in this city","[+1 Science] Per [2] Population in this city","[40]% of food is carried over after population increases"]
     },
     {
         "name": "Defender of Progress",
@@ -233,8 +233,8 @@
 		"percentStatBonus": {"gold": 50,"science": 33,"production": 10},
         "specialistSlots": {"culture": 1,"gold": 2,"science": 2,"production": 1},
         "isNationalWonder": true,
-        "uniques": ["[+1 Food] from [Fish] tiles","[+1 Food] from [Ocean] tiles","[+1 Food] from [Coast] tiles",
-            "[+2 Science] from [Jungle] tiles","[+1 Science] Per [2] Population in this city","[40]% of food is carried over after population increases",
+        "uniques": ["[+1 Food] from [Fish] tiles in this city","[+1 Food] from [Ocean] tiles in this city","[+1 Food] from [Coast] tiles in this city",
+            "[+2 Science] from [Jungle] tiles in this city","[+1 Science] Per [2] Population in this city","[40]% of food is carried over after population increases",
             "Quantity of strategic resources produced by the empire increased by 100%","Indicates the capital city"]
     },
     {
