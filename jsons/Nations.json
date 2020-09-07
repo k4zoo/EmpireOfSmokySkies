@@ -5,11 +5,6 @@
 //		"innerColor": [255,255,255]
 	},
 	{
-		"name": "SET STARTING ERA TO STEAM ERA",
-		"outerColor": [0,0,0],
-		"innerColor": [255,255,255]
-	},
-	{
 		"name": "Eruch",
 		"leaderName": "Cyrus Rotheram",
 		"adjective": ["Eruch"],
