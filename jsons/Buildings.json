@@ -73,7 +73,7 @@
         "cost": 75,            
         "food": 2,
         "production": 1,
-        "uniques": ["Must be next to river"],
+        "uniques": ["Must be on [River]"],
         "hurryCostModifier": 25,
         "maintenance": 2,
         "requiredTech": "The Wheel"
@@ -90,7 +90,7 @@
     {
         "name": "Garden",
         "cost": 120,
-        "uniques": ["+[4]% great person generation in all cities","Must border a source of fresh water"],
+        "uniques": ["+[25]% great person generation in this city","Must be next to [Fresh water]"],
         "hurryCostModifier": 25,
         "maintenance": 1,
         "requiredTech": "Theology"
@@ -101,7 +101,7 @@
         "cost": 120,
 		"hurryCostModifier": 25,
 		"uniques": ["[+1 Production] from [Water resource] tiles in this city",
-			"Connects trade routes over water","Can only be built in coastal cities"],
+			"Connects trade routes over water","Must be next to [Coast]"],
 		"requiredTech": "Compass"
 	},
 	{
@@ -138,7 +138,7 @@
 		"maintenance": 2,
 		"requiredBuilding": "Harbor",
 		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles in this city",
-            "Can only be built in coastal cities","+[15]% production when building [naval units] in this city"],
+            "Must be next to [Coast]","+[15]% production when building [naval units] in this city"],
 		"requiredTech": "Navigation"
 	},
     {
@@ -205,7 +205,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 2,
         "cost": 250,
-		"uniques": ["+[5]% Production when constructing [Buildings]","Must not be on hill"],
+		"uniques": ["+[10]% production when building [Buildings] in this city","Must not be on [Hill]"],
 		"requiredTech": "Economics"
 	},
 	{
@@ -355,7 +355,7 @@
         "greatPersonPoints": {"gold": 1},
         "isWonder": true,
         "uniques": ["[+1 Happiness, +2 Culture, +3 Gold] from every [Castle]",
-            "Must have an owned mountain within 2 tiles"],
+            "Must have an owned [Mountain] within [2] tiles"],
         "requiredTech": "Noblesse Oblige",
         "quote": "'...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world.'  - King Ludwig II of Bavaria"    
     },
@@ -432,7 +432,7 @@
         "isWonder": true,
         "greatPersonPoints": {"culture": 2},
         "percentStatBonus": {"culture": 50},
-        "uniques": ["Free Social Policy","Can only be built in coastal cities"],
+        "uniques": ["Free Social Policy","Must be next to [Coast]"],
         "requiredTech": "Galvanomagnetism",
         "quote": "'Those who lose dreaming are lost.'  - Australian Aboriginal saying"
     },
