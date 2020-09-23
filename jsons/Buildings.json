@@ -184,7 +184,7 @@
 		"culture": 1,
 		"happiness": 4,
 		"isWonder": true,
-		"uniques": ["2 free Great Artists appear"],
+		"uniques": ["[2] free [Great Artist] units appear"],
 		"requiredTech": "Archaeology",
 		"quote": "'Every genuine work of art has as much reason for being as the earth and the sun'  - Ralph Waldo Emerson"
 	},
