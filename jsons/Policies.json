@@ -80,7 +80,7 @@
 			{
 				"name": "Representation",
 				"effect": "N/A",
-				"uniques": ["Each city founded increases culture cost of policies 33% less than normal", "Empire enters golden age"],
+				"uniques": ["Each city founded increases culture cost of policies [33]% less than normal", "Empire enters golden age"],
 				"requires": ["Legalism"],
 				"row": 2,
 				"column": 4
@@ -88,7 +88,7 @@
 			{
 				"name": "Religious Tolerance",
 				"effect": "N/A",
-				"uniques": ["Culture cost of adopting new Policies reduced by 10%"],
+				"uniques": ["Culture cost of adopting new Policies reduced by [10]%"],
 				"requires": ["Reformation","Representation"],
 				"row": 3,
 				"column": 3
