@@ -263,13 +263,6 @@ NationIcons/Vedria
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/∅
-  rotate: false
-  xy: 1734, 201
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 PolicyIcons/Communism
   rotate: false
   xy: 105, 257
@@ -279,42 +272,42 @@ PolicyIcons/Communism
   index: -1
 PolicyIcons/Educated Elite
   rotate: false
-  xy: 1836, 251
+  xy: 1734, 251
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Nationalism
   rotate: false
-  xy: 1940, 251
+  xy: 1838, 251
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Planned Economy
   rotate: false
-  xy: 105, 205
+  xy: 1890, 251
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Religious Tolerance
   rotate: false
-  xy: 104, 49
+  xy: 104, 153
   size: 48, 50
   orig: 48, 50
   offset: 0, 0
   index: -1
 PolicyIcons/Socialism
   rotate: false
-  xy: 104, 101
+  xy: 105, 205
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 PolicyIcons/United Front
   rotate: false
-  xy: 1836, 210
+  xy: 1734, 210
   size: 50, 39
   orig: 50, 39
   offset: 0, 0
@@ -503,28 +496,28 @@ TileSets/FantasyHex/Tiles/Aetherium
   index: -1
 TileSets/FantasyHex/Tiles/Luboric
   rotate: false
-  xy: 1922, 221
+  xy: 1820, 221
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Airship
   rotate: false
-  xy: 1992, 261
+  xy: 1994, 261
   size: 32, 40
   orig: 32, 40
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Land Ironclad
   rotate: false
-  xy: 1888, 221
+  xy: 1786, 221
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Land Leviathan
   rotate: false
-  xy: 104, 19
+  xy: 104, 123
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -538,7 +531,7 @@ TileSets/FantasyHex/Units/Landship
   index: -1
 TileSets/FantasyHex/Units/Sky Fortress
   rotate: false
-  xy: 157, 203
+  xy: 104, 81
   size: 32, 40
   orig: 32, 40
   offset: 0, 0
@@ -580,14 +573,14 @@ UnitIcons/Sky Fortress
   index: -1
 UnitPromotionIcons/Mobility I
   rotate: false
-  xy: 1888, 251
+  xy: 1786, 251
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Repair
   rotate: false
-  xy: 104, 153
+  xy: 1942, 251
   size: 50, 50
   orig: 50, 50
   offset: 0, 0
