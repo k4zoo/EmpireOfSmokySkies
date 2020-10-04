@@ -48,7 +48,7 @@
 		"outerColor": [213,166,120],
 		"innerColor": [43,79,83],
 		"uniqueName": "New World Order",
-		"uniques": ["Culture cost of adopting new Policies reduced by 10%"],
+		"uniques": ["Culture cost of adopting new Policies reduced by [10]%"],
 		"cities": ["Paris","Orleans","Lyon","Troyes","Tours","Marseille","Chartres","Avignon","Rouen","Grenoble",
 			"Dijon","Amiens","Cherbourg","Poitiers","Toulouse","Bayonne","Strasbourg","Brest","Bordeaux","Rennes",
 			"Nice","Saint Etienne","Nantes","Reims","Le Mans","Montpellier","Limoges","Nancy","Lille","Caen","Toulon",
