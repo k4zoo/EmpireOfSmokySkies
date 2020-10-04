@@ -82,7 +82,7 @@
 		"name": "Courthouse",
         "cost": 100,
 		"maintenance": 4,
-		"hurryCostModifier": 25,
+		"hurryCostModifier": 50,
 		"uniques": ["Remove extra unhappiness from annexed cities",
 			"Can only be built in annexed cities"],
 		"requiredTech": "Mathematics"
@@ -253,6 +253,7 @@
         "cost": 750,
         "maintenance": 0,
         "requiredBuildingInAllCities": "Difference Engine",
+		"uniques": ["Cost increases by [30] per owned city"],
         "requiredTech": "Analog Computation"
     },
     {
@@ -318,6 +319,7 @@
         "isNationalWonder": true,
         "cost": 750,
         "maintenance": 0,
+		"uniques": ["Cost increases by [30] per owned city"],
         "requiredBuildingInAllCities": "Patent Office",
         "requiredTech": "Landships"
     },
@@ -501,6 +503,7 @@
         "isNationalWonder": true,
         "cost": 750,
         "maintenance": 0,
+		"uniques": ["Cost increases by [30] per owned city"],
         "requiredBuildingInAllCities": "Philanthroporium",
         "requiredTech": "Radio"
     },
@@ -529,6 +532,7 @@
         "isNationalWonder": true,
         "cost": 750,
         "maintenance": 0,
+		"uniques": ["Cost increases by [30] per owned city"],
         "requiredBuildingInAllCities": "Subterranean Outpost",
         "requiredTech": "Subterranean Exploration"
     },
