@@ -366,8 +366,7 @@
         "cost": 300,
         "hurryCostModifier": 25,
         "maintenance": 0,
-        "uniques": ["[+1 Production] from [Luboric] tiles in this city"],
-        "requiredNearbyImprovedResources": ["Luboric"],
+        "uniques": ["Provides [2] [Luboric]"],
         "requiredTech": "Infernal Combustion"
     },
     {
@@ -378,8 +377,7 @@
         "cost": 300,
         "hurryCostModifier": 25,
         "maintenance": 0,
-        "uniques": ["[+1 Production] from [Luboric] tiles in this city"],
-        "requiredNearbyImprovedResources": ["Luboric"],
+        "uniques": ["Provides [2] [Luboric]","[+1 Production] from [Luboric] tiles in this city"],
         "requiredTech": "Infernal Combustion"
     },
     {
@@ -440,12 +438,10 @@
     },
     {
         "name": "Aetherium Fabricator",
-        "resourceBonusStats": {"gold": 1},
         "cost": 360,
         "hurryCostModifier": 25,
         "maintenance": 0,
-        "uniques": ["[+1 Production] from [Aetherium] tiles in this city"],
-        "requiredNearbyImprovedResources": ["Aetherium"],
+        "uniques": ["Provides [2] [Aetherium]"],
         "requiredTech": "Automata"
     },
     {
@@ -456,8 +452,7 @@
         "cost": 360,
         "hurryCostModifier": 25,
         "maintenance": 0,
-       "uniques": ["[+1 Production] from [Aetherium] tiles in this city"],
-        "requiredNearbyImprovedResources": ["Aetherium"],
+        "uniques": ["Provides [2] [Aetherium]","[+1 Gold] from [Aetherium] tiles in this city"],
         "requiredTech": "Automata"
     },    
     {
