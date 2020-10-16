@@ -220,7 +220,7 @@
 			{
 				"name": "Nationalism",
 				"effect": "N/A",
-				"uniques": ["+15% combat strength for units fighting in friendly territory"],		
+				"uniques": ["+[15]% combat bonus for units fighting in [Friendly Land]"],		
 				"row": 1,
 				"column": 4
 			},

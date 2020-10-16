@@ -162,14 +162,6 @@
 		"requiredTech": "Archaeology"
 	},
 	{
-		"name": "Military Academy",
-        "cost": 300,
-		"xpForNewUnits": 15,
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"requiredTech": "Military Science"
-	},
-	{
 		"name": "Big Ben",
 		"culture": 1,
 		"gold": 4,
@@ -457,21 +449,23 @@
     },    
     {
         "name": "Airship Hangar",
-        "xpForNewUnits": 15,
         "maintenance": 0,
         "cost": 360,
         "hurryCostModifier": 25,
+        "uniques": ["New [Fighter] units start with [15] Experience","New [Bomber] units start with [15] Experience",
+            "New [Mounted] units start with [15] Experience","(Mounted = Airship units in this mod)"],
         "requiredTech": "Uranography"
     },
     {
         "name": "Aerodrome",
         "replaces": "Airship Hangar",
         "uniqueTo": "Eruch",
-        "xpForNewUnits": 15,
         "maintenance": 0,
         "cost": 360,
         "hurryCostModifier": 25,
-        "uniques": ["+[15]% production when building [mounted units] in this city", "(Mounted = Airship units in this mod)"],
+        "uniques": ["New [Fighter] units start with [15] Experience","New [Bomber] units start with [15] Experience",
+            "New [Mounted] units start with [15] Experience","+[15]% production when building [mounted units] in this city",
+            "(Mounted = Airship units in this mod)"],
         "requiredTech": "Uranography"
     },    
     {
