@@ -206,38 +206,38 @@
 	// Submarine
 	{
 		"name": "Wolfpack I",
-		"effect": "Bonus as Attacker [25]%",
+		"effect": "+[25]% Strength when attacking",
 		"unitTypes": ["WaterSubmarine"]
 	},
 	{
 		"name": "Wolfpack II",
 		"prerequisites": ["Wolfpack I"],
-		"effect": "Bonus as Attacker [25]%",
+		"effect": "+[25]% Strength when attacking",
 		"unitTypes": ["WaterSubmarine"]
 	},
 	{
 		"name": "Wolfpack III",
 		"prerequisites": ["Wolfpack II"],
-		"effect": "Bonus as Attacker [25]%",
+		"effect": "+[25]% Strength when attacking",
 		"unitTypes": ["WaterSubmarine"]
 	},
 	
 	// Aircraft Carrier
 	{
 		"name": "Armor Plating I",
-		"effect": "+25% Combat Bonus when defending",
+		"effect": "+[25]% Strength when defending",
 		"unitTypes": ["WaterAircraftCarrier"]
 	},
 	{
 		"name": "Armor Plating II",
 		"prerequisites": ["Armor Plating I"],
-		"effect": "+25% Combat Bonus when defending",
+		"effect": "+[25]% Strength when defending",
 		"unitTypes": ["WaterAircraftCarrier"]
 	},
 	{
 		"name": "Armor Plating III",
 		"prerequisites": ["Armor Plating II"],
-		"effect": "+25% Combat Bonus when defending",
+		"effect": "+[25]% Strength when defending",
 		"unitTypes": ["WaterAircraftCarrier"]
 	},
 	{
@@ -456,15 +456,7 @@
 	
 	// Uniques
 	{
-		"name": "Haka War Dance", // only for Maori Warrior and subsequent upgrades
-		"effect": "-10% combat strength for adjacent enemy units"
-	},
-	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
 		"effect": "All healing effects doubled"
 	},
-	{
-		"name": "Slinger Withdraw", // only for Slinger and subsequent upgrades
-		"effect": "May withdraw before melee (133%)"
-	}
 ]
