@@ -212,7 +212,8 @@
 		"requiredResource": "Aetherium",
 		"upgradesTo": "Sky Fortress",
 		"obsoleteTech": "Sky Fortress",
-		"uniques": ["Bonus vs Armor 100%","No defensive terrain bonus","Ignores terrain cost"],
+		"uniques": ["Bonus vs Armor 100%","All tiles costs 1","Can pass through impassable tiles",
+			"No defensive terrain bonus","Ignores terrain cost"],
 		"hurryCostModifier": 20
 	},
 	{
@@ -246,7 +247,8 @@
 		"cost": 575,
 		"requiredTech": "Sky Fortress",
 		"requiredResource": "Aetherium",
-		"uniques": ["Can carry 2 aircraft","Bonus vs Armor 100%","No defensive terrain bonus","Ignores terrain cost"],
+		"uniques": ["Can carry 2 aircraft","All tiles costs 1","Can pass through impassable tiles",
+			"Bonus vs Armor 100%","No defensive terrain bonus","Ignores terrain cost"],
 		"hurryCostModifier": 20
 	},
 	//  Great People
