@@ -53,7 +53,8 @@
             "Gain a free [Temple] [in every city]","Gain a free [Bank] [in every city]",
             "Gain a free [Market] [in every city]","Gain a free [Opera House] [in every city]",
             "Gain a free [Public School] [in every city]","Gain a free [University] [in every city]",
-            "Gain a free [Workshop] [in every city]","Double quantity of [Coal] produced","Double quantity of [Oil] produced"]
+            "Gain a free [Workshop] [in every city]","Double quantity of [Coal] produced","Double quantity of [Oil] produced",
+		   	"Double quantity of [Luboric] produced","Double quantity of [Aetherium] produced"]
     },
     {
         "name": "Monument",
@@ -136,7 +137,6 @@
         "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
         "resourceBonusStats": {"production": 1},
         "hurryCostModifier": 25,
-        "uniques": ["+[15]% production when building [land units] in this city"],
         "requiredTech": "Horseback Riding"
     },
     {
