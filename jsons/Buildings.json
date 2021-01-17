@@ -54,7 +54,7 @@
             "Gain a free [Market] [in every city]","Gain a free [Opera House] [in every city]",
             "Gain a free [Public School] [in every city]","Gain a free [University] [in every city]",
             "Gain a free [Workshop] [in every city]","Double quantity of [Coal] produced","Double quantity of [Oil] produced",
-		   	"Double quantity of [Luboric] produced","Double quantity of [Aetherium] produced"]
+			"Double quantity of [Luboric] produced","Double quantity of [Aetherium] produced"]
     },
     {
         "name": "Monument",
