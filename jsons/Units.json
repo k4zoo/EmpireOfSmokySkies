@@ -83,7 +83,7 @@
 		"strength": 10,
 		"cost": 45,
 		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles",],
+		"uniques": ["Cannot enter ocean tiles"],
 		"upgradesTo": "Caravel",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
@@ -409,7 +409,8 @@
 		"interceptRange": 2,
 		"cost": 375,
 		"requiredTech": "Propulsion",
-		"uniques": ["Can attack submarines","[40]% chance to intercept air attacks","May withdraw before melee"], // todo: add bonus vs submarines
+		"uniques": ["Can attack submarines","[40]% chance to intercept air attacks",
+			"May withdraw before melee ([50]%)","Bonus vs WaterSubmarine 100%"],
 		"hurryCostModifier": 20
 	},
 	{
@@ -433,7 +434,8 @@
 		"rangedStrength": 60,
 		"cost": 325,
 		"requiredTech": "Expedition",
-		"uniques": ["Bonus as Attacker [75]%", "Invisible to others", "Can only attack water", "Can attack submarines", "Can enter ice tiles"],
+		"uniques": ["+[75]% Strength when attacking", "Invisible to others", "Can only attack water",
+			"Can attack submarines", "Can enter ice tiles"],
 		"hurryCostModifier": 20
 	},
 	{
@@ -459,7 +461,7 @@
 		"requiredResource": "Aetherium",
 		"upgradesTo": "Sky Fortress",
 		"obsoleteTech": "Sky Fortress",
-		"uniques": ["Bonus vs Armor 100%","All tiles costs 1","Can pass through impassable tiles",
+		"uniques": ["Bonus vs Armor 100%","All tiles cost 1 movement","Can pass through impassable tiles",
 			"No defensive terrain bonus","Unable to capture cities"],
 		"hurryCostModifier": 20
 	},
@@ -482,7 +484,7 @@
 		"strength": 50,
 		"cost": 375,
 		"requiredTech": "Civil Defense",
-		"uniques": ["[100]% chance to intercept air attacks","Bonus vs air units 150%","Bonus vs Mounted units 150%"],
+		"uniques": ["[100]% chance to intercept air attacks","Bonus vs air units 150%","Bonus vs Mounted 150%"],
 		"hurryCostModifier": 20,
 		"attackSound": "machinegun"
 	},
@@ -494,7 +496,7 @@
 		"cost": 575,
 		"requiredTech": "Sky Fortress",
 		"requiredResource": "Aetherium",
-		"uniques": ["Can carry 2 aircraft","All tiles costs 1","Can pass through impassable tiles",
+		"uniques": ["Can carry 2 aircraft","All tiles cost 1 movement","Can pass through impassable tiles",
 			"Bonus vs Armor 100%","No defensive terrain bonus","Unable to capture cities"],
 		"hurryCostModifier": 20
 	},
@@ -530,5 +532,5 @@
 		"uniques": ["Can start an [8]-turn golden age", "Bonus for units in 2 tile radius 15%", "Can construct [Citadel]",
 			"Great Person - [War]", "Unbuildable"],
 		"movement": 2
-	},
+	}
 ]

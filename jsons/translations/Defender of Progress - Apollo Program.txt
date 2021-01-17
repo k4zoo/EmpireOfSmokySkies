@@ -1,0 +1,13 @@
+Defender of Progress - Apollo Program
+
+Grand Philanthropist - SS Booster
+
+Captain of Industry - SS Cockpit
+
+Lord of Refinement - SS Engine
+
+Master of Wealth - SS Stasis Chamber
+
+Spaceship part = Honourable Title
+
+Enables construction of Spaceship parts = Enables earning of Honourable Titles
