@@ -409,7 +409,7 @@
 		"interceptRange": 2,
 		"cost": 375,
 		"requiredTech": "Propulsion",
-		"uniques": ["Can attack submarines","[40]% chance to intercept air attacks","May withdraw before melee",
+		"uniques": ["Can attack submarines","[40]% chance to intercept air attacks",
 			"May withdraw before melee ([50]%)","Bonus vs WaterSubmarine 100%"],
 		"hurryCostModifier": 20
 	},
