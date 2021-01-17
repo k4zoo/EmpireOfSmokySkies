@@ -1,45 +1,36 @@
 [
-    // uniques
+    // Honourable (formerly scientific) victory
     {
-        "name": "Defender of Progress",
+        "name": "Apollo Program", // Defender of Progress
         "cost": 1500,
         "isNationalWonder": true,
         "requiredBuilding": "Palace",
         "requiredTech": "Landships",
-        "uniques": ["Honourable Title"]
+        "uniques": ["Enables construction of Spaceship parts"]
     },
     {
-        "name": "Grand Philanthropist",
+        "name": "SS Booster", // "Grand Philanthropist"
         "cost": 1500,
-        "isNationalWonder": true,
-        "requiredBuilding": "Defender of Progress",
         "requiredTech": "Noblesse Oblige",
-        "uniques": ["Honourable Title"]
+        "uniques": ["Spaceship part", "Cannot be purchased"]
     },
     {
-        "name": "Captain of Industry",
+        "name": "SS Cockpit", // Captain of Industry
         "cost": 1500,
-        "isNationalWonder": true,
-        "requiredBuilding": "Grand Philanthropist",
         "requiredTech": "Automata",
-        "uniques": ["Honourable Title"]
+        "uniques": ["Spaceship part", "Cannot be purchased"]
     },    
     {
-        "name": "Lord of Refinement",
+        "name": "SS Engine", // "Lord of Refinement"
         "cost": 2000,
-        "isNationalWonder": true,
-        "requiredBuilding": "Captain of Industry",
         "requiredTech": "Technocracy",
-        "uniques": ["Honourable Title"]
+        "uniques": ["Spaceship part", "Cannot be purchased"]
     },
     {
-        "name": "Master of Wealth",
-        "culture": 3000,
+        "name": "SS Stasis Chamber", // "Master of Wealth"
         "cost": 2000,
-        "isNationalWonder": true,
-        "requiredBuilding": "Lord of Refinement",
         "requiredTech": "Perpetual Motion",
-        "uniques": ["Honourable Title"]
+        "uniques": ["Spaceship part", "Cannot be purchased"]
     },
 
     // Real Buildings
@@ -62,7 +53,7 @@
             "Gain a free [Temple] [in every city]","Gain a free [Bank] [in every city]",
             "Gain a free [Market] [in every city]","Gain a free [Opera House] [in every city]",
             "Gain a free [Public School] [in every city]","Gain a free [University] [in every city]",
-            "Gain a free [Workshop] [in every city]","Quantity of strategic resources produced by the empire increased by 100%"]
+            "Gain a free [Workshop] [in every city]","Double quantity of [Coal] produced","Double quantity of [Oil] produced"]
     },
     {
         "name": "Monument",
@@ -140,12 +131,12 @@
         "requiredTech": "Optics"
     },
     {
-        "name": "Stable", 
+        "name": "Stable", // modded
         "maintenance": 1,
         "requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
         "resourceBonusStats": {"production": 1},
         "hurryCostModifier": 25,
-        "uniques": ["+[15]% production when building [mounted units] in this city"],
+        "uniques": ["+[15]% production when building [land units] in this city"],
         "requiredTech": "Horseback Riding"
     },
     {
@@ -224,14 +215,13 @@
         "requiredTech": "Metal Casting"
     },
     {
-        "name": "Forge",
+        "name": "Forge", // modded
         "maintenance": 1,
         "hurryCostModifier": 25,
         "requiredNearbyImprovedResources": ["Iron"],
         "resourceBonusStats": {"production": 1},
         "requiredTech": "Metal Casting",
-        "uniques": ["+[15]% production when building [land units] in this city",
-            "+[15]% production when building [Spaceship part] in this city"]
+        "uniques": ["+[15]% production when building [land units] in this city"]
     },
     {
         "name": "Harbor",
@@ -449,7 +439,7 @@
         "percentStatBonus": {"gold": 25},
         "specialistSlots": {"Merchant": 2},
         "hurryCostModifier": 15,
-        "requiredTech": "Vertical Integration",
+        "requiredTech": "Vertical Integration"
     },
     {
         "name": "Pentagon",
@@ -506,7 +496,7 @@
         "cost": 500,
         "maintenance": 2,
         "requiredTech": "Noblesse Oblige"
-    }
+    },
     {
         "name": "Neuschwanstein",
         "happiness": 2,
@@ -618,8 +608,7 @@
         "maintenance": 0,
         "cost": 360,
         "hurryCostModifier": 25,
-        "uniques": ["New [Fighter] units start with [15] Experience","New [Bomber] units start with [15] Experience",
-            "New [Mounted] units start with [15] Experience","(Mounted = Airship units in this mod)"],
+        "uniques": ["New [Air] units start with [15] Experience", "New [Mounted] units start with [15] Experience"],
         "requiredTech": "Uranography"
     },
     {
@@ -629,9 +618,8 @@
         "maintenance": 0,
         "cost": 360,
         "hurryCostModifier": 25,
-        "uniques": ["New [Fighter] units start with [15] Experience","New [Bomber] units start with [15] Experience",
-            "New [Mounted] units start with [15] Experience","+[15]% production when building [mounted units] in this city",
-            "(Mounted = Airship units in this mod)"],
+        "uniques": ["New [Air] units start with [15] Experience", "New [Mounted] units start with [15] Experience",
+            "+[15]% production when building [mounted units] in this city"],
         "requiredTech": "Uranography"
     },    
     {
@@ -700,7 +688,8 @@
 		"greatPersonPoints": {"production": 1},
 		"providesFreeBuilding": "Broadcast Tower",
 		"uniques": ["+1 population in each city","[+1 Happiness] in all cities"],
-		"requiredTech": "Technocracy"
+        "requiredTech": "Technocracy",
+        "quote" : "'Nothing travels faster than the speed of light with the possible exception of bad news, which obeys its own special laws.' - Douglas Adams"
 	},
     {
         "name": "Perpetual Motion Engine",
