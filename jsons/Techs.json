@@ -443,7 +443,7 @@
             "techs": [
                   {
                         "name": "Biology",
-                        "row": 3,
+                        "row": 2,
                         "prerequisites": ["Archaeology","Scientific Theory"],
                         "quote": "'If the brain were so simple we could understand it, we would be so simple we couldn't.' - Lyall Watson",
                         "uniques": ["Starting tech"]

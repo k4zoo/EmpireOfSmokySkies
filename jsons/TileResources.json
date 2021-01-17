@@ -5,58 +5,63 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Grassland"],
 		"food": 1,
-		"production": 1,
 		"improvement": "Pasture",
-		"improvementStats": {"production": 1}
+		"improvementStats": {"production": 1},
+		"building": "Stable"
 	},
 	{
 		"name": "Sheep",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Hill"],
 		"food": 1,
-		"production": 1,
 		"improvement": "Pasture",
-		"improvementStats": {"food": 1}
+		"improvementStats": {"food": 1},
+		"building": "Stable"
 	},
 	{
 		"name": "Deer",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
-		"food": 2,
+		"food": 1,
 		"improvement": "Camp",
-		"improvementStats": {"production": 1}
+		"improvementStats": {"production": 1},
+		"building": "Granary"
 	},
 	{
 		"name": "Bananas",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Jungle"],
-		"food": 2,
+		"food": 1,
 		"improvement": "Plantation",
 		"improvementStats": {"food": 2,"production": -1},
+		"building": "Granary"
 	},
 	{
-		"name": "Wheat",
+		"name": "Wheat", 
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Flood plains","Desert"],
-		"food": 2,
+		"food": 1,
 		"improvement": "Farm",
 		"improvementStats": {"food": 1},
+		"building": "Granary"
 	},
 	{
 		"name": "Stone",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Plains","Desert","Snow"],
-		"production": 2,
+		"production": 1,
 		"improvement": "Quarry",
 		"improvementStats": {"production": 1},
+		"building": "Stone Works"
 	},
 	{
 		"name": "Fish",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Coast"],
-		"food": 2,
+		"food": 1,
 		"improvement": "Fishing Boats",
 		"improvementStats": {"food": 1},
+		"building": "Lighthouse"
 	},
 	
 	// Strategic resources
@@ -65,18 +70,20 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Animal Husbandry",
 		"terrainsCanBeFoundOn": ["Plains","Grassland","Hill","Desert"],
-		"production": 2,
+		"production": 1,
 		"improvement": "Pasture",
-		"improvementStats": {"production": 1}
+		"improvementStats": {"production": 1},
+		"building": "Stable"
 	},
 	{
 		"name": "Iron",
 		"resourceType": "Strategic",
 		"revealedBy": "Iron Working",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Tundra","Snow","Hill"],
-		"production": 2,
+		"production": 1,
 		"improvement": "Mine",
-		"improvementStats": {"production": 1}
+		"improvementStats": {"production": 1},
+		"building": "Forge"
 	},
 	{
 		"name": "Coal",
@@ -152,26 +159,28 @@
 		"name": "Gold",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Plains","Desert","Hill"],
-		"gold": 4,
+		"gold": 2,
 		"improvement": "Mine",
-		"improvementStats": {"gold": 1}
+		"improvementStats": {"gold": 1},
+		"building": "Mint"
 	},
 	{
 		"name": "Silver",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Desert","Tundra","Hill"],
-		"gold": 4,
+		"gold": 2,
 		"improvement": "Mine",
-		"improvementStats": {"gold": 1}
+		"improvementStats": {"gold": 1},
+		"building": "Mint"
 	},
 	{
 		"name": "Incense",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Plains","Desert"],
 		"gold": 2,
-		"culture": 2,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 1}
+		"improvementStats": {"gold": 1},
+		"building": "Monastery"
 	},
 	{
 		"name": "Ivory",
@@ -202,9 +211,9 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Grassland","Plains"],
 		"gold": 2,
-		"culture": 2,
 		"improvement": "Plantation",
-		"improvementStats": {"gold": 1}
+		"improvementStats": {"gold": 1},
+		"building": "Monastery"
 	},
 	{
 		"name": "Sugar",
@@ -220,8 +229,9 @@
 		"terrainsCanBeFoundOn": ["Desert","Plains","Tundra","Hill","Grassland"],
 		"gold": 2,
 		"improvement": "Quarry",
-		"improvementStats": {"gold": 1,"production": 2},
-		"unique": "+15% production towards Wonder construction"
+		"improvementStats": {"gold": 1,"production": 1},
+		"unique": "+15% production towards Wonder construction",
+		"building": "Stone Works"
 	},
 	{
 		"name": "Whales",
