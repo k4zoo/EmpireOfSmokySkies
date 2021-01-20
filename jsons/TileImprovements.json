@@ -158,28 +158,33 @@
 	// Great Person improvements
 	{
 		"name": "Academy",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"science": 8,
 		"uniques": ["Great Improvement","[+2 Science] once [Scientific Theory] is discovered"]
 	},
 	{
 		"name": "Landmark",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"culture": 6,
 		"uniques": ["Great improvement"],
 	},
 	{
 		"name": "Manufactory",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"production": 4,
 		"improvingTech": "Chemistry",
 		"uniques": ["Great Improvement","[+1 Production] once [Chemistry] is discovered"]
 	},
 	{
 		"name": "Customs house",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"gold": 4,
 		"improvingTech": "Economics",
 		"uniques": ["Great Improvement","[+1 Gold] once [Economics] is discovered"]
 	},
 	{
 		"name": "Citadel",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Oasis"],
 		"uniques": ["Gives a defensive bonus of [100]%","Deal 30 damage to adjacent enemy units",
 			"Great improvement"],
 	},
